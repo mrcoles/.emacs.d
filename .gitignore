@@ -1,0 +1,7 @@
+*.pyc
+*.elc
+*~
+.places
+elpa/archives
+auto-save-list
+history
