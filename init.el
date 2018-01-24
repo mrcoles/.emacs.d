@@ -173,6 +173,7 @@
 ;; (require 'setup-nodejs)
 ;; ;; TODO - (require 'setup-scala)
 (require 'setup-web-mode)
+(require 'setup-prettier-js)
 
 
 ;; Font lock dash.el
