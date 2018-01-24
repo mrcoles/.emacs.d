@@ -6,10 +6,9 @@
 (add-to-list 'auto-mode-alist '("\\.scss\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
 
-;; (add-hook 'web-mode-hook
-;;           (lambda ()
-;;             (setq web-mode-markup-indent-offset 2)
-;;             ))
+;; make jsx content in .js files indent properly
+(setq web-mode-content-types-alist
+  '(("jsx" . "\\.jsx?\\'")))
 
 (add-to-list 'web-mode-comment-formats '("javascript" . "//"))
 (add-to-list 'web-mode-comment-formats '("jsx" . "//"))
@@ -18,5 +17,6 @@
 ;; (setq web-mode-script-padding 1)
 (setq web-mode-code-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
+
 
 (provide 'setup-web-mode)
