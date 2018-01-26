@@ -8,7 +8,7 @@
 
 ;; make jsx content in .js files indent properly
 (setq web-mode-content-types-alist
-  '(("jsx" . "\\.jsx?\\'")))
+  '(("jsx" . "\\.js[x]?\\'")))
 
 (add-to-list 'web-mode-comment-formats '("javascript" . "//"))
 (add-to-list 'web-mode-comment-formats '("jsx" . "//"))
