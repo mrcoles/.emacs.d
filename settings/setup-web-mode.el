@@ -12,6 +12,9 @@
 
 (add-to-list 'web-mode-comment-formats '("javascript" . "//"))
 (add-to-list 'web-mode-comment-formats '("jsx" . "//"))
+(add-to-list 'web-mode-comment-formats '("scss" . "//"))
+;; HACK - scss doesn't work, can we just do all css like scss comments? this seems to break too...
+(add-to-list 'web-mode-comment-formats '("css" . "//"))
 
 (setq web-mode-markup-indent-offset 2)
 ;; (setq web-mode-script-padding 1)
