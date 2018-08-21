@@ -52,6 +52,9 @@
 (setq-default save-place t)
 (setq save-place-file (expand-file-name ".places" user-emacs-directory))
 
+;; make C-k kill whole line (including line break) if at start of line
+(setq kill-whole-line t)
+
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
 
