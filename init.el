@@ -81,7 +81,7 @@
      ;; exec-path-from-shell
      ;; f
      ;; fill-column-indicator
-     fiplr
+     ;; fiplr ;; deprectaed!!!!
      ;; flx
      ;; flx-ido
      ;; flycheck
