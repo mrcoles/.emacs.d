@@ -81,9 +81,9 @@
      ;; exec-path-from-shell
      ;; f
      ;; fill-column-indicator
-     ;; fiplr ;; deprectaed!!!!
-     ;; flx
-     ;; flx-ido
+     ;; fiplr ;; deprecated!!!!
+     flx
+     flx-ido
      ;; flycheck
      ;; flycheck-pos-tip
      ;; gist
@@ -113,7 +113,7 @@
      ;; paredit
      ;; php-mode
      ;; prodigy
-     ;; projectile
+     projectile
      ;; quickrun
      ;; restclient
      ;; reveal-in-finder
@@ -159,7 +159,7 @@
 ;; Setup extensions
 
 
-;; ;; TODO - (eval-after-load 'ido '(require 'setup-ido))
+;; TODO (eval-after-load 'ido '(require 'setup-ido))
 ;; (eval-after-load 'org '(require 'setup-org))
 ;; (eval-after-load 'dired '(require 'setup-dired))
 ;; (eval-after-load 'magit '(require 'setup-magit))
@@ -170,7 +170,7 @@
 ;; (require 'setup-ffip)
 ;; (require 'setup-html-mode)
 ;; (require 'setup-paredit)
-;; ;; TODO - (require 'setup-projectile)
+(require 'setup-projectile)
 ;; (require 'setup-python)
 ;; (require 'setup-js-beautify)
 ;; (require 'setup-nodejs)
