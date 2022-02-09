@@ -7,7 +7,7 @@
 
 (setq package-pinned-packages '())
 
-(package-initialize)
+(unless package--initialized (package-initialize t))
 
 (unless (file-exists-p "~/.emacs.d/elpa/archives/melpa-stable")
   (package-refresh-contents))
